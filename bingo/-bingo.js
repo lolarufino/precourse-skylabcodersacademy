@@ -156,7 +156,7 @@ function bingo() {
                 linea++;
                 alert('¡LÍNEA!');
                 preguntarNuevoTurno();
-            //Si todo el cartón ya está en matched true, se canta bingo
+            //Si el cartón al completo ya está en matched true, se canta bingo
             } else if (bingoCard.every((elem) => elem.matched === true)) {
                 alert('¡¡¡¡¡BBBIIINNNGGGOOO!!!!!');
                 console.log('¡Enhorabuena! Has completado el cartón en ' + contador + ' turnos.');
