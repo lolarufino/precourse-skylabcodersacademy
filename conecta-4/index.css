@@ -1,0 +1,222 @@
+/*--- GENERAL STYLES ---*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #C8D1F0;
+}
+
+/*--- TOKEN STYLES ---*/
+.token-yellow{
+    background-color: #ebc24e;
+    width: 61px;
+    height: 63px;
+    border-radius: 50%;
+    border: 5px outset #bb8d40;
+    position: absolute;
+    z-index: 3;
+    margin-top: 85px;
+    margin-left: 10px;
+}
+
+.token-red{
+    background-color: #df5f46;
+    width: 61px;
+    height: 63px;
+    border-radius: 50%;
+    border: 5px outset #a43039;
+    position: absolute;
+    z-index: 4;
+    margin-left: 10px;
+}
+
+/*--- BOARD CONTAINER STYLES ---*/
+.main-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 15px; 
+    width: 640px;
+    height: 500px;
+    background-color: #4167EE;
+    border-radius: 20px;
+    border: 1px outset #203274;
+    position: relative;
+    z-index: 1;
+    box-shadow: -4px -1px #203274 inset;
+}
+
+/*--- Lines Styles ---*/
+
+.first-line, .second-line, .third-line, .fourth-line, .fifth-line, .sixth-line{
+    background-color: transparent;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+}
+
+/*--- Unit Styles ---*/
+.unit{
+    position: relative; 
+    margin: 3px 3px;
+    background-color:#C8D1F0;
+    width: 77px; 
+    height: 77px; 
+    border-radius: 50%; 
+    box-shadow: 5px 4px inset #203274;
+}
+
+.unit::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 97%; 
+    height: 97%; 
+    border-radius: 50%;
+    border: 2px outset #203274;
+}
+
+/*--- BOARD LEGS STYLES ---*/
+.board-legs-front{
+    margin: 0 auto;
+    width: 640px;
+    height: 10px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.rectangle-front{
+    width: 150px;
+    height: 30px;
+    background-color: #4167EE;
+    border: 1px solid #203274;
+    border-radius: 10px;
+    margin-top: -40px;
+    margin-left: -7px;
+    z-index: 1;
+}
+
+.board-legs-back{
+    margin: 0 auto;
+    width: 640px;
+    height: 55px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    background-color: transparent;
+    position: relative;
+    z-index: 0;
+}
+
+.rectangle-back{
+    width: 150px;
+    height: 30px;
+    background-color: #4167EE;
+    border: 1px solid #203274;
+    box-shadow: -4px -1px #203274 inset;
+    border-radius: 10px;
+}
+
+/*--- INFO STYLES ---*/
+
+/*--- Info header styles ---*/
+.info-header{
+    margin: 0 auto;
+    width: 300px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header{
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px #4167EE;
+    letter-spacing: 2px;
+    background-color: #203274;;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.number{
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    color: #bb0808;;
+    font-size: 50px;
+    text-shadow: 3px 3px white;
+}
+
+/*--- Info buttons styles ---*/
+.info-buttons{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 540px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px dashed #203274;
+}
+
+#img-crono{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    transform: translateX(-189px);
+}
+
+.crono-timer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #203274;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px #4167EE;
+}
+
+.turn-of{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #203274;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #4167EE;
+}
+
+.button-game{
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: #203274;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #4167EE;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid;
+    border-top: dashed #ebc24e;
+    border-right-color: #df5f46;
+    border-bottom: dashed #ebc24e;
+    border-left-color: #df5f46;
+    opacity: 0.7;
+}
+
+.button-game:hover{
+    box-shadow: 1px 1px 3px rgb(138, 138, 138);
+    opacity: 0.9;
+}
