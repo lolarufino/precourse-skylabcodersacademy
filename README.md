@@ -9,6 +9,6 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 🔸 Bingo
 🔸 Pasapalabra
 🔸 Calculator HTML:
-<img src="https://i.ibb.co/4ZqMrjp/calculatorhtml.gif" alt="Calculator HTML" style="height: 100px;"/>
+<img src="https://i.ibb.co/4ZqMrjp/calculatorhtml.gif" alt="Calculator HTML" style="height: 500px;"/>
 🔸 Pasapalabra HTML
 🔸 Conecta 4
