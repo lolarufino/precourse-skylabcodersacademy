@@ -20,6 +20,8 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 </br>
 🔸 Pasapalabra HTML:
 </br>
+<img src="https://i.ibb.co/tZzZy9R/pasapalabrahtml.gif" alt="Pasapalabra HTML" style="height: 500px;"/>
+</br>
 </br>
 🔸 Conecta 4:
 </br>
