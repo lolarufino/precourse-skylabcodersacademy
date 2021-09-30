@@ -4,10 +4,11 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 
 ## Exercises
 
-Calculator
-Airlines
-Bingo
-Pasapalabra
-Calculator HTML
-Pasapalabra HTML
-Conecta 4
+🔸 Calculator: 
+🔸 Airlines
+🔸 Bingo
+🔸 Pasapalabra
+🔸 Calculator HTML:
+![Calculator HTML](https://i.ibb.co/4ZqMrjp/calculatorhtml.gif)
+🔸 Pasapalabra HTML
+🔸 Conecta 4
