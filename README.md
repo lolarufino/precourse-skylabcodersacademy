@@ -4,25 +4,25 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 
 ## Exercises
 
-🔸 Calculator: 
+🔸 Calculator: Calculator made to use in the command line with prompts using Javascript.
 </br>
-🔸 Airlines:
+🔸 Airlines: Airlines website made to use in the command line with prompts using Javascript.
 </br>
-🔸 Bingo:
+🔸 Bingo: Bingo game made to use in the command line with prompts using Javascript.
 </br>
-🔸 Pasapalabra:
+🔸 Pasapalabra: Pasapalabra game made to use in the command line with prompts using Javascript.
 </br>
-🔸 Calculator HTML:
+🔸 Calculator HTML: Calculator using HTML, CSS and Javascript.
 </br>
 </br>
 <img src="https://i.ibb.co/4ZqMrjp/calculatorhtml.gif" alt="Calculator HTML" style="height: 500px;"/>
 </br>
 </br>
-🔸 Pasapalabra HTML:
+🔸 Pasapalabra HTML: Pasapalabra game using HTML, CSS and Javascript
 </br>
 </br>
 <img src="https://i.ibb.co/tZzZy9R/pasapalabrahtml.gif" alt="Pasapalabra HTML" style="height: 700px;"/>
 </br>
 </br>
-🔸 Conecta 4:
+🔸 Conecta 4: Conecta4 game CSS
 </br>
