@@ -14,7 +14,9 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 </br>
 🔸 Calculator HTML:
 </br>
+</br>
 <img src="https://i.ibb.co/4ZqMrjp/calculatorhtml.gif" alt="Calculator HTML" style="height: 500px;"/>
+</br>
 </br>
 🔸 Pasapalabra HTML:
 </br>
