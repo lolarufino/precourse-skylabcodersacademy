@@ -20,7 +20,9 @@ These are my exercises for the precourse for Skylab Coders Academy Bootcamp. I s
 </br>
 🔸 Pasapalabra HTML: Pasapalabra game using HTML, CSS and Javascript
 </br>
+</br>
 If you want to play, follow [this link](https://stoic-roentgen-ea3557.netlify.app/)
+</br>
 </br>
 <img src="https://i.ibb.co/tZzZy9R/pasapalabrahtml.gif" alt="Pasapalabra HTML" style="height: 700px;"/>
 </br>
